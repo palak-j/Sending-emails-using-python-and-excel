@@ -8,7 +8,7 @@ file = pd.read_csv("E:\mails.csv")
 receivers = list(file['mail_id'])
 
 
-gmail_user = 'jainpalak741@gmail.com'
+gmail_user = 'username@gmail.com'
 gmail_password = 'password'
 
 sent_from = gmail_user
