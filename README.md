@@ -8,4 +8,17 @@ Syntax: </br>
 import smtplib<br/>
 
 smtpObj = smtplib.SMTP( [host [, port [, local_hostname]]] ) </br>
+host − This is the host running your SMTP server(optional). </br>
+port − If you are providing host argument, then you need to specify a port, where SMTP server is listening. </br>
+local_hostname − If your SMTP server is running on your local machine, then you can specify just localhost. </br></br>
+
+An SMTP object has an instance method called sendmail, which is used to mailing a message. It takes three parameters − </br> Sender </br> Receiver </br> Message </br>
+
+
+
+
+
+#### Python documentation : 
+#### https://docs.python.org/3/library/smtplib.html
+
 
